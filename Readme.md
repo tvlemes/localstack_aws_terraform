@@ -8,24 +8,26 @@
 
 # 🚀 LocalStack + Terraform - Exemplo com S3</h1>
 
+Este é um exemplo prático de Infraestrutura como código com uso do LocalStack com Terraform para provisionamento local de recursos AWS, incluindo a criação e gerenciamento de buckets S3, com suporte a Docker Compose, Makefile e automação em Python.
+
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/tvlemes/etl-databricks-connect/blob/main/LICENSE)
 [![Status](https://img.shields.io/badge/status-Concluído-green.svg)]()
 
 ## 📂 Estrutura do Projeto
 ```
-LocalStack com Terraform/\
+LocalStack com Terraform/
 │
-├── s3/ # Configurações Terraform para S3\
-│ ├── provider.tf # Configuração do provedor AWS apontando para LocalStack\
-│ ├── terraform.tf # Código para criação do bucket\
-│ ├── outputs.tf # Saídas do Terraform\
+├── s3/ # Configurações Terraform para S3
+│ ├── provider.tf # Configuração do provedor AWS apontando para LocalStack
+│ ├── terraform.tf # Código para criação do bucket
+│ ├── outputs.tf # Saídas do Terraform
 │
-├── volume/ # Volume persistente do Docker (cache, logs, etc.)\
+├── volume/ # Volume persistente do Docker (cache, logs, etc.)
 │
-├── docker-compose.yml # Configuração do LocalStack\
-├── requirements.txt # Dependências Python (boto3, awscli)\
-├── Makefile # Automação de comandos\
+├── docker-compose.yml # Configuração do LocalStack
+├── requirements.txt # Dependências Python (boto3, awscli)
+├── Makefile # Automação de comandos
 └── .gitignore
 ```
 
