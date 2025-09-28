@@ -1,0 +1,5 @@
+anotacoes.md
+.terraform/
+.terraform.lock.hcl
+.terraform.tfstate
+volume/
