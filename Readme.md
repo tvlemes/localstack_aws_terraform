@@ -11,7 +11,7 @@
 Este é um exemplo prático de Infraestrutura como código com uso do LocalStack com Terraform para provisionamento local de recursos AWS, incluindo a criação e gerenciamento de buckets S3, com suporte a Docker Compose, Makefile e automação em Python.
 
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/tvlemes/etl-databricks-connect/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/tvlemes/localstack_aws_terraform/blob/main/LICENSE)
 [![Status](https://img.shields.io/badge/status-Concluído-green.svg)]()
 
 ## 📂 Estrutura do Projeto
